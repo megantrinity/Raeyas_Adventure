@@ -176,7 +176,7 @@ class Soldier(pygame.sprite.Sprite):
                     self.update_action(1)
                     self.move_counter += 1
                     # vision
-                    self.vision.center = (self.rect.centerx + 75 * self.direction, self.rect.centery
+                    self.vision.center = (self.rect.centerx + 75 * self.direction, self.rect.centery)
 
 
                     if self.move_counter > TILE_SIZE:
